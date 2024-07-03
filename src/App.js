@@ -34,6 +34,24 @@ function App() {
         <SkillCard id="skills" />
 
         <ProjectCard
+          projectTitle="QuizWiz Quiz Platform"
+          projectDesc="Developed MERN based user-friendly platform that allows users to take quizzes, track their progress, and review their results, enhancing engagement and learning outcomes.
+Implemented an intuitive admin portal for creating and managing quizzes, including features for adding, modifying, and deleting questions and answers, as well as generating detailed user performance reports."
+          projectLink="https://github.com/vivekgogi/QuizWiz"
+          deployedProjectLink="https://quizwiz-b463a.web.app/"
+          projectImg={require("./images/Project-LOL.png")}
+        />
+
+        <ProjectCard
+          className="odd"
+          projectTitle="Cellenza E-Commerce Website"
+          projectDesc="Developed an E-commerce website using React and Firebase to establish an online presence for a store and showcase its products with detailed information. The project includes an Admin Panel for product management, posting announcements, and additional functionalities to ensure smooth operation and management of the online store."
+          projectLink="https://github.com/vivekgogi/cellenza"
+          deployedProjectLink="https://cellenza.web.app/"
+          projectImg={require("./images/Project-LOL.png")}
+        />
+
+        <ProjectCard
           projectTitle="Learning Out Loud - Coding Club Website"
           projectDesc="This is a React based Website created for the LOL CODING CLUB at
 WIT Solapur, serving as a comprehensive online hub for the club's
@@ -71,6 +89,15 @@ customizable types, difficulty levels."
           deployedProjectLink="https://knowledge-quest-vivekgogi.netlify.app/"
           projectImg={require("./images/Project-KnowledgeQuest.png")}
         />
+
+        <ProjectCard
+          projectTitle="SDJG High School and Junior College"
+          projectDesc="Developed a comprehensive website for a school in Solapur. This project ensures an organized and user-friendly interface to provide information and resources for students, parents, alumni, and potential staff. The website serves as an effective online platform to enhance communication and engagement within the school community."
+          projectLink="https://github.com/vivekgogi/djgurukulsolapur"
+          deployedProjectLink="https://djgurukulsolapur24.web.app/"
+          projectImg={require("./images/Project-ManageWise.png")}
+        />
+
         <ContactForm id="contact" />
         <Footer />
       </div>
